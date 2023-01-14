@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Logo with CSS</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: azure;
+            height: 100vh;
+        }
+        
+        .youtube-logo {
+            background-color: firebrick;
+            width: 300px;
+            height: 200px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .playBtn {
+            width: 0;
+            height: 0;
+            border-top: 60px solid transparent;
+            border-bottom: 60px solid transparent;
+            border-left: 120px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="youtube-logo">
+        <div class="playBtn"></div>
+    </div>
+</body>
+</html>
